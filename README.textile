@@ -1,0 +1,26 @@
+h1. Quick Sound Scripts
+
+This repo contains a few AppleScripts that can be mapped to Quicksilver keyboard shortcuts and then play a few selected sound clips of your collection (e.g. mp3) at a pre-set volume level. After the sound clip is played, your machine will revert to the same sound volume level before the clip was played.
+
+You can now create your own sound-board just like the one "Jim Crammer":http://www.cnbc.com/id/18724672 uses!
+
+h2. Compatiability
+
+Tested on:
+* OS X 10.6.8 (Snow Leopard)
+* @PlaySound.app@ (1.6.7).
+* (Optionally) Quicksilver v3841.
+
+h2. Installation
+
+# Install @PlaySound.app@ (http://microcosmsoftware.com/playsound/).
+# Puts the AppleScript files in your @~/Library/Scripts@ folder.
+# Modify the scripts using @AppleScript Editor@ and point them to your sound clips.
+# (Optionally) Map each sound to a keyboard shortcut:
+## In Quicksilver, go to @Triggers@. For each sound clip, create a new @HotKey@ shortcut that does "@Run Script@ > _your.script.name_". In each script, you need to point the script to the location of your sound clips.
+## To avoid mis-triggering sound clips, use more sophisticated key combinations, such as "_SHIFT_ + _^ ⌥ ⌘_ + X", where X is any characters A-Z.
+
+h2. Author
+
+Stephen Chu
+http://www.stephenchu.com
